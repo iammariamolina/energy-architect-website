@@ -814,6 +814,83 @@
     footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; text-align: center; }
     .contact { padding: 5rem 1.5rem; }
   }
+
+    /* ── WHITE SECTIONS ── */
+    .section-white {
+      background: #ffffff;
+      color: #0D1528;
+    }
+    .section-white .section-label {
+      color: var(--gold);
+    }
+    .section-white .about-headline,
+    .section-white .works-with-headline,
+    .section-white .podcast-headline {
+      color: #0D1528;
+    }
+    .section-white .about-headline em,
+    .section-white .works-with-headline em,
+    .section-white .podcast-headline em {
+      color: var(--gold);
+    }
+    .section-white p,
+    .section-white li {
+      color: #1a2540;
+    }
+    .section-white .works-with-item {
+      border-color: rgba(201,168,76,0.3);
+      background: rgba(201,168,76,0.05);
+    }
+    .section-white .works-with-bullet {
+      color: var(--gold);
+    }
+    .section-white .podcast-box {
+      background: #f5f5f5;
+      border-color: rgba(201,168,76,0.3);
+    }
+    .section-white .podcast-ep {
+      color: #0D1528;
+    }
+    .section-white .podcast-desc {
+      color: #1a2540;
+    }
+
+
+    .free-guide.section-white h3 {
+      color: #0D1528;
+    }
+    .free-guide.section-white p {
+      color: #1a2540;
+    }
+    .section-white .contact-headline {
+      color: #0D1528;
+    }
+    .section-white .contact-headline em {
+      color: var(--gold);
+    }
+    .section-white .contact-sub {
+      color: #1a2540;
+    }
+    .section-white .contact-link {
+      color: var(--gold);
+    }
+
+
+    /* ── DARKER GOLD FOR WHITE SECTIONS ── */
+    .section-white .section-label,
+    .section-white .works-with-bullet,
+    .section-white .contact-link,
+    .section-white em,
+    .section-white .offer-tag {
+      color: #8B6914 !important;
+    }
+    .section-white .about-headline em,
+    .section-white .works-with-headline em,
+    .section-white .podcast-headline em,
+    .section-white .contact-headline em {
+      color: #8B6914 !important;
+    }
+
 </style>
 </head>
 <body>
@@ -852,7 +929,7 @@
 </section>
 
 <!-- ABOUT -->
-<section class="about" id="about">
+<section class="about section-white" id="about">
   <div>
     <p class="section-label">About</p>
     <h2 class="about-headline">
@@ -905,7 +982,7 @@
 </section>
 
 <!-- FREE GUIDE -->
-<div class="free-guide">
+<div class="free-guide section-white">
   <div class="free-guide-text">
     <h3>Start Here — Free Resource</h3>
     <p>"The Identity Mirror" — five questions to finally see who you are becoming underneath everything you have been performing. Print it, answer honestly, and let what comes up show you where your identity shift is happening.</p>
@@ -953,7 +1030,7 @@
       <h3 class="offer-name">The Becoming</h3>
       <p class="offer-price">411 euros — full journey</p>
       <div class="offer-divider"></div>
-      <p class="offer-desc">One Architecture Session audit, three Installation Sessions and full Sovereign Library access for the duration. For people who are ready for deep, sustained structural transformation — not just insight, but real change that holds.</p>
+      <p class="offer-desc">One Architecture Session audit, three Installation Sessions and full Sovereign Library access for the duration. For people who are ready for deep, sustained structural transformation — not just insight, but real change that holds. Includes fully custom-made protocols designed around your individual lifestyle and needs. Every detail is taken into consideration — including your astrology chart and Human Design — so we can restructure your life in a way that is uniquely and completely yours.</p>
       <div class="podcast-box-inner"></div>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSddIsZoNR_wwzBoTGWQx2anlEgGNUbdwB9-RWXwqwK5zLOBJQ/viewform?usp=publish-editor" target="_blank" class="offer-link">Begin The Becoming</a>
     </div>
@@ -979,7 +1056,7 @@
 </section>
 
 <!-- PODCAST -->
-<section class="podcast" id="podcast">
+<section class="podcast section-white" id="podcast">
   <div>
     <p class="section-label">The Podcast</p>
     <h2 class="podcast-headline">
@@ -1014,7 +1091,7 @@
 </section>
 
 <!-- CONTACT -->
-<section class="contact" id="contact">
+<section class="contact section-white" id="contact">
   <p class="section-label" style="justify-content:center;">Contact</p>
   <h2 class="contact-headline">
     Not sure where to start?<br>
