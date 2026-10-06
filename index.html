@@ -525,6 +525,10 @@
   .offer-link:hover { gap: 1.2rem; border-color: var(--gold); }
   .offer-link::after { content: '→'; }
 
+  /* BECOMING APP CARD (full width, first in the grid) */
+  .offer-card.app-card { grid-column: 1 / -1; }
+  .offer-card.app-card .offer-desc { max-width: 720px; }
+
   /* PODCAST */
   .podcast {
     background: var(--midnight);
@@ -998,6 +1002,16 @@
   </h2>
   <div class="offers-grid">
 
+    <!-- BECOMING APP. Remove the price line below after the launch promo ends (Oct 16). -->
+    <div class="offer-card featured app-card" id="becoming-app">
+      <span class="offer-tag">New | The App</span>
+      <h3 class="offer-name">Becoming</h3>
+      <p class="offer-price">Launch price: 20% off until October 16</p>
+      <div class="offer-divider"></div>
+      <p class="offer-desc">Daily support for the person you are becoming, helping you heal what hurts, step into who you are meant to be and build a life that holds it all. Every day you get a powerful, personalized plan: a healing practice matched to what you are working on, an identity practice, and one real-life action that anchors it. And when something hard hits, even at 2AM, you can describe it and get support for that exact moment. Becoming is your special app, built from my Energy Architecture framework, my sessions and my voice.</p>
+      <a href="https://studio.com/maria-molina" target="_blank" class="offer-link">Start My Journey</a>
+    </div>
+
     <div class="offer-card">
       <span class="offer-tag">Entry Point</span>
       <h3 class="offer-name">Single Architecture Session</h3>
@@ -1027,12 +1041,12 @@
 
     <div class="offer-card featured">
       <span class="offer-tag">Deep Transformation</span>
-      <h3 class="offer-name">The Becoming</h3>
+      <h3 class="offer-name">The Alignment</h3>
       <p class="offer-price">411 euros — full journey</p>
       <div class="offer-divider"></div>
       <p class="offer-desc">One Architecture Session audit, three Installation Sessions and full Sovereign Library access for the duration. For people who are ready for deep, sustained structural transformation — not just insight, but real change that holds. Includes fully custom-made protocols designed around your individual lifestyle and needs. Every detail is taken into consideration — including your astrology chart and Human Design — so we can restructure your life in a way that is uniquely and completely yours.</p>
       <div class="podcast-box-inner"></div>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSddIsZoNR_wwzBoTGWQx2anlEgGNUbdwB9-RWXwqwK5zLOBJQ/viewform?usp=publish-editor" target="_blank" class="offer-link">Begin The Becoming</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSddIsZoNR_wwzBoTGWQx2anlEgGNUbdwB9-RWXwqwK5zLOBJQ/viewform?usp=publish-editor" target="_blank" class="offer-link">Begin The Alignment</a>
     </div>
 
 
@@ -1063,7 +1077,7 @@
       Honest conversations about energy, identity, structure —<br>
       <em>and what it actually takes to change.</em>
     </h2>
-    <p class="podcast-desc">Every week on The Energy Architect Podcast, I go deep on the real reasons inner work does not stick — and what the structural piece actually looks like. No quick fixes. No toxic positivity. Just the truth.</p>
+    <p class="podcast-desc">On The Energy Architect Podcast, I go deep on the real reasons inner work does not stick, and what the structural piece actually looks like. No quick fixes. No toxic positivity. Just the truth.</p>
     <div class="podcast-links">
       <a href="https://www.youtube.com/@iammariamolina" class="podcast-link" target="_blank">Watch on YouTube</a>
       <a href="https://open.spotify.com/show/0VVk7Q8xwJS20syIu6RwFL?si=UVvDiHobRnObyioaVkxBIg" class="podcast-link secondary" target="_blank">Listen on Spotify</a>
@@ -1085,7 +1099,7 @@
         <div class="wave-bar"></div>
       </div>
       <p class="podcast-box-title">The Energy Architect</p>
-      <p class="podcast-box-sub">New episode every Friday</p>
+      <p class="podcast-box-sub">Episodes on YouTube and Spotify</p>
     </div>
   </div>
 </section>
